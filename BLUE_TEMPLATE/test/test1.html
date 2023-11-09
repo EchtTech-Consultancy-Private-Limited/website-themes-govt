@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> hellow</h1>
+    
+    <a href="./" href ="#"> click me</a>
+
+    <input type="file" id="fileInput" multiple>
+
+
+
+    <br>
+
+    <input type="file" id="pdfInput" />
+<button onclick="validatePdfContent()">Validate PDF Content</button>
+
+<script>
+// Assuming you have a file input element with an ID of 'fileInput'
+const fileInput = document.getElementById('fileInput');
+
+// Add an event listener to handle when a file is selected
+fileInput.addEventListener('change', (event) => {
+  const file = event.target.files[0]; // Get the first selected file from the input
+console.log(file.type);
+  if (file) {
+    // Define allowed MIME types (you can customize this list according to your requirements)
+    const allowedMimeTypes = ['image/jpeg', 'image/png', 'image/gif', 'application/pdf'];
+
+    // Check if the file's MIME type is allowed
+    if (allowedMimeTypes.includes(file.type)) {
+      // If the MIME type is allowed, you can now read the file's content (optional)
+      const reader = new FileReader();
+
+      reader.onload = (e) => {
+        // e.target.result contains the file's content as a data URL
+        const dataURL = e.target.result;
+        // console.log('Data URL:', dataURL);
+        // reader.readAsArrayBuffer(file)
+        // reader.readAsText(file);
+        // You can perform further validation or processing here if needed
+        // For example, if it's an image, you can display it as a preview before uploading.
+      };
+
+      // Read the contents of the file as a data URL
+      
+
+    //   reader.readAsDataURL(file);
+    } else {
+      // If the file's MIME type is not allowed, display an error message to the user.
+      alert('Invalid file type! Please select a valid file.');
+    }
+  }
+
+  const fileInput = document.getElementById('fileInput');
+ // Get the first selected file from the input
+
+  if (file) {
+    const fileType = file.type;
+    console.log('File type:', fileType);
+  } else {
+    console.log('No file selected.');
+  }
+
+
+});
+
+
+// async function validatePdfContent() {
+//   const fileInput = document.getElementById('pdfInput');
+//   const file = fileInput.files[0];
+
+//   if (file) {
+//     // Load the PDF file using pdf.js
+//     const pdfData = new Uint8Array(await file.arrayBuffer());
+//     const pdfDocument = await pdfjsLib.getDocument({ data: pdfData }).promise;
+
+//     // Get the number of pages in the PDF
+//     const numPages = pdfDocument.numPages;
+
+//     // You can perform further validation on the PDF content here
+//     console.log('Number of pages:', numPages);
+//   } else {
+//     console.log('No file selected.');
+//   }
+// }
+
+
+</script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+
+
+</body>
+</html>

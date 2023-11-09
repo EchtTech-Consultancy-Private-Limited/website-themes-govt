@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  .marquee-container {
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+    width: 300px;
+  }
+
+  .marquee-wrapper {
+    position: absolute;
+    animation: marqueeAnimation 4s linear infinite;
+  }
+
+  .marquee-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @keyframes marqueeAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-50%);
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="marquee-container">
+    <div class="marquee-wrapper">
+      <div class="marquee-content">
+        <p>This is a smooth marquee animation example.</p>
+        <p>It moves from the bottom to the top.</p>
+        <p>This animation is achieved using CSS keyframes.</p>
+      </div>
+      <div class="marquee-content">
+        <p>This is a smooth marquee animation example.</p>
+        <p>It moves from the bottom to the top.</p>
+        <p>This animation is achieved using CSS keyframes.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+

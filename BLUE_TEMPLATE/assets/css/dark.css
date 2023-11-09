@@ -1,0 +1,40 @@
+
+
+section,body, div{
+    background-color: #000 !important;
+}
+
+
+a, li.topbar-link a, .navbar-light .navbar-nav .nav-link,.theme-mode .light-mode{
+    color: #ffff00 !important;
+    background-color: #000 !important;
+}
+p, .title{
+    color: #fff !important;
+}
+
+.logo-header .logo a img {
+   background-color: #fff;
+}
+
+.carousel-section .carousel-caption .btn{
+    background-color: #000 !important;
+    color: #ffff00 !important;
+}
+
+.button, .gallery .galery-wrapper .product .know-more, .tab button {
+    background: #000 !important;
+    color: #ffff00 !important;
+
+}
+
+.tab button:hover {
+    background-color: #000;
+}
+
+
+
+a#light-mode {
+    background: #fff;
+    color: #000;
+}

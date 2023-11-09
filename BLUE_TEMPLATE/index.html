@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Name</title>
+
+  <!-- FAVICON FILES -->
+<!-- 
+  <link href="./assets/image/favicon.png" rel="apple-touch-icon" sizes="72x72">
+  <link href="./assets/image/favicon.png" rel="apple-touch-icon">
+  <link href="./assets/image/favicon.png" rel="shortcut icon"> -->
+
+
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/jquery-3.7.1.min.js"></script>
+  <link href="./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- bootstrap css -->
+
+
+  <!-- font awesome  -->
+  <link rel="stylesheet" href="./assets/font-awesome-4.7.0/css/font-awesome.min.css"/>
+
+  <!-- google font -->
+  
+  <!-- tahoma font -->
+<!-- owl carousel  -->
+<link rel="stylesheet" href="./assets/owl-crousel/dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="./assets/owl-crousel/dist/assets/owl.theme.default.min.css">
+
+<link rel="stylesheet" href="./assets/css/aos.css">
+
+  <link rel="stylesheet" href="./assets/css/style.css" id="theme-style" type="text/css">
+
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="main-container-wrapper">
+
+      <header>
+        <!-- top header section start -->
+
+        <div class="top-header">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-4">
+                <div class="topbar d-flex align-items-center">
+                 <ul>
+                   <li class="after-right"> <a href="#exhibition">Skip to main content </a></li>
+                    <li class=""><a href="#" title="screen reader assess">Screen Reader Access </a></li>
+                 </ul>
+                </div>
+
+              </div>
+              <div class="col-lg-8 col-md-8">
+                <div class="topbar d-flex align-items-center justify-content-end after-right">
+                  <ul class="d-flex align-items-center">
+                    <li class="position-relative search" >
+                      <input type="search" placeholder="search"><i class="fa fa-search" aria-hidden="true"></i>
+                    </li>
+                    <li class="theme-text-size ">
+                      <a href="javascript:void(0)"  id="btn-decrease" onclick="decreaseFontSize()">A-</a>
+                      <a href="javascript:void(0)" id="btn-orig">A</a>
+                      <a href="javascript:void(0)"  id="btn-increase" onclick="increaseFontSize()">A+</a>
+                    </li>
+                   
+                    <li class="theme-mode ">
+                      <a href="javascript:void(0)"  class="light-mode" id="lightModeButton" onclick="setTheme('assets/css/style')">L</a>
+                      <a href="javascript:void(0)"  class="dark-mode" id="darkModeButton" onclick="setTheme('assets/css/dark')">D</a>
+                    </li>
+
+                    <li>
+                      <select name="lang" id="lang">
+                        <option value="English">English</option>
+                        <option value="Hindi">Hindi</option>
+                      </select>
+                    </li>
+                    <li class="theme-text-size ">
+                      <a href="javascript:void(0)"  id="btn-decrease" ><i class="fa fa-sitemap text-white" aria-hidden="true"></i></a>
+                      
+                    </li>
+                   
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <!-- top header section end -->
+        <div class="logo-header">
+          <div class="container">
+            <div class="row ">
+              <div class="col-lg-6 col-md-6">
+                <div class="d-flex">
+                  <div class='logo'>
+                    <a href="#" title="lalitkala">
+
+                      <img src="./assets/image/satymev.png" alt="lalitkala" title="lalitkala">
+                    </a>
+                  </div>
+                  <!-- <div class="logo-text">
+                    <h1 class="mb-0">
+                      National Rabies Control Program
+                    </h1>
+                    <h2 class="mb-0">National Center for Disease control</h2>
+                    <p>Directorate General of Health Services, Ministry of Health & Family Welfare, Government of India
+                    </p>
+                  </div> -->
+                </div>
+
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="logo dital-india">
+                  <!-- <button class="simple-button">Know Your Vaccination Schedule</button> -->
+                  <a href="#">
+                    <img src="./assets/image/g20.jpg" alt="Digital_India_logo" title="g20"
+                      class="nrcp-logo">
+                  </a>
+                  <a href="#">
+                    <img src="./assets/image/Digital_India_logo.png" alt="Digital_India_logo" title="Digital_India_logo"
+                      class="nrcp-logo">
+                  </a>
+                  <a href="#">
+                    <img src="./assets/image/Swach-Bharat.png" alt="swatch bharat" title="swatch bharat"
+                      class="swatch-bharat">
+                  </a>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Logo header content here -->
+        </div>
+        <!-- navigation bar section start -->
+        <div class="main-nav">
+          <div class="container">
+    
+            <nav class="navbar navbar-expand-lg p-0">
+              <div class="container-fluid">
+              
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav  mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Academic
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Link1</a></li>
+                        <li><a class="dropdown-item" href="#">Link2</a></li>
+                        
+                        <li><a class="dropdown-item" href="#">Link3</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Download
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Link1</a></li>
+                        <li><a class="dropdown-item" href="#">Link2</a></li>
+                        
+                        <li><a class="dropdown-item" href="#">Link3</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Quick Link
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Link1</a></li>
+                        <li><a class="dropdown-item" href="#">Link2</a></li>
+                        
+                        <li><a class="dropdown-item" href="#">Link3</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown menu
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Link1</a></li>
+                        <li><a class="dropdown-item" href="#">Link2</a></li>
+                        
+                        <li><a class="dropdown-item" href="#">Link3</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Faculty</a>
+                    </li>
+                  </ul>
+                 
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <!-- navigation bar section end -->
+      </header>
+
+      <!-- slider section start -->
+
+      <section class="carousel-section">
+        <div class="carousel1">
+          
+          <div class="owl-carousel" id="main-slider">
+            <div class="item">  <img src="./assets/image/banner/banner1.jpg" class="d-block w-100" alt="carousel"></div>
+            <div class="item">  <img src="./assets/image/banner/banner2.jpg" class="d-block w-100" alt="carousel"></div>
+            <div class="item">  <img src="./assets/image/banner/banner3.jpg" class="d-block w-100" alt="carousel"></div>
+            <div class="item">  <img src="./assets/image/banner/banner4.jpg" class="d-block w-100" alt="carousel"></div>
+          
+          </div>
+        </div>
+     
+      </section>
+   
+  
+      
+
+</div>
+      <!-- slider section end -->
+
+      <section class="minister py-lg-5 py-md-3">
+        <div class="container">
+
+          <div class="row">
+            <h3 class="title">
+              Our Minister
+             </h3>
+            <div class="col-lg-3 col-md-4">
+              <div class="minister-item" data-aos="fade-up-right">
+                <img src="./assets/image/logo/minister1.png" alt="image">
+                <div class="content">
+                  <p class="subheading bg-danger">Minister</p>
+                  <h4 class="heading"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis similique labore aliquam molestiae eum.</p>
+                </div>
+              </div>
+             
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="minister-item" data-aos="zoom-out">
+                <img src="./assets/image/logo/minister2.png" alt="image">
+                <div class="content">
+                  <p class="subheading bg-info text-dark">Director</p>
+                  <h4 class="heading"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis similique labore aliquam molestiae eum.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="minister-item" data-aos="zoom-in">
+                <img src="./assets/image/logo/minister3.png" alt="image">
+                <div class="content">
+                  <p class="subheading bg-dark">Director</p>
+                  <h4 class="heading"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis similique labore aliquam molestiae eum.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="minister-item" data-aos="fade-up-left">
+                <img src="./assets/image/logo/minister4.png" alt="image">
+                <div class="content">
+                  <p class="subheading bg-primary">Director</p>
+                  <h4 class="heading"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis similique labore aliquam molestiae eum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- exhibition setion start -->
+
+
+      <section class="about position-relative py-40" id="exhibition">
+        <div class="about-wrapper">
+          <div class="container">
+            <h3 class="title">
+              About Us
+             </h3>
+             <div class="row">
+              <div class="col-md-6 "  data-aos-anchor-placement="center-bottom">
+                <div class="about-content" data-aos="fade-up">
+                  <p>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro id dolore facilis, quis vel numquam deleniti impedit aspernatur nihil obcaecati ab ducimus, harum eveniet, modi cupiditate error nulla corporis quod.
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio error magnam, recusandae ipsam est eveniet aliquid beatae totam quis velit voluptatem voluptate, tenetur officia itaque exercitationem. Hic ut ab illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, mollitia in deserunt fugit facere sequi veritatis asperiores exercitationem earum dolorum rerum molestiae doloribus obcaecati, doloremque, sint dolore saepe cumque ipsam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam incidunt esse alias pariatur accusantium vel, blanditiis sequi quis sit minima, veritatis quidem nesciunt eos facere dicta unde quos eligendi facilis!
+                  </p>
+                  <div class="button-center">
+
+                    <button class="btn button float-end">Read More</button>
+                  </div>
+                 </div>
+              </div>
+              <div class="col-md-6 " >
+                <div class="about-img" data-aos="fade-down">
+                 <div>
+                  <img src="./assets/image/banner/about.webp" alt="about">
+                 </div>
+                </div>
+              </div>
+             </div>
+           
+           
+
+
+          </div>
+        </div>
+      </section>
+
+      <!-- exhibition setion end -->
+
+      <!-- event setion start -->
+      <section class="event py-40">
+        <div class="container">
+          <h3 class="title text-center mb-5">Events</h3>
+          <div class="tab-container">
+            <div class="tab-wrap">
+              <span class="border"></span>
+              <div class="d-flex justify-content-center">
+                <ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="ex1-tab-1" data-bs-toggle="tab" href="#ex1-tabs-1" role="tab"
+                      aria-controls="ex1-tabs-1" aria-selected="true">Upcoming Events</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="ex1-tab-2" data-bs-toggle="tab" href="#ex1-tabs-2" role="tab"
+                      aria-controls="ex1-tabs-2" aria-selected="false">Past Events</a>
+                  </li>
+                  <!-- <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="ex1-tab-3" data-bs-toggle="tab" href="#ex1-tabs-3" role="tab"
+                      aria-controls="ex1-tabs-3" aria-selected="false">Invites</a>
+                  </li> -->
+                </ul>
+              </div>
+            
+            </div>
+
+
+            <div class="tab-content" id="ex1-content">
+              <div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1">
+              
+                <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleControls2" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleControls2" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleControls2" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleControls2" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleControls2" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    </div>
+                   
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-lg-5 col-md-5">
+                          <div class="quick-link-img ">
+                            <img src="./assets/image/event.png" alt="event" title="event" class="mx-auto d-block w-100">
+                          </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7">
+
+                          <div class="quick-link-content">
+                            <p>
+                              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                              invidunt
+                              ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                              justo duo
+                              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+                              dolor
+                              sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                              invidunt
+                             
+                            
+                            </p>
+
+                            <div class="quick-link-doc d-flex">
+
+                              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam</p>
+                            </div>
+                            <div class="button-center">
+
+                              <button class="btn button mt-3">Read More</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-lg-5 col-md-5">
+                          <div class="quick-link-img scroll-animation-left">
+                            <img src="./assets/image/event.png" alt="event" title="event" class="mx-auto d-block w-100">
+                          </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7">
+
+                          <div class="quick-link-content">
+                            <p>
+                              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                              invidunt
+                              ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                              justo duo
+                              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+                              dolor
+                              sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                              invidunt
+                            </p>
+
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolore laboriosam magni quia dolores. Facere veniam quos excepturi fugit, maiores illo quidem dolorem.
+                            </p>
+
+                            <div class="button-center">
+
+                              <button class="btn button mt-3">Read More</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-lg-5 col-md-5">
+                          <div class="quick-link-img scroll-animation-left">
+                            <img src="./assets/image/event.png" alt="event" title="event" class="mx-auto d-block w-100">
+                          </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7">
+
+                          <div class="quick-link-content">
+                            <p>
+                              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                              invidunt
+                              ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                              justo duo
+                              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+                              dolor
+                              sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                            </p>
+
+                            <div class="quick-link-doc d-flex">
+
+                              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Autem, ut hic recusandae, accusantium nulla incidunt sunt nemo,
+                                tempore esse libero tempora. Distinctio culpa fugiat magnam rem voluptatibus debitis
+                                odit quibusdam?</p>
+                            </div>
+                            <div class="button-center">
+
+                              <button class="btn button mt-3">Read More</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-lg-5 col-md-5">
+                          <div class="quick-link-img scroll-animation-left">
+                            <img src="./assets/image/event.png" alt="event" title="event" class="mx-auto d-block w-100">
+                          </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7">
+
+                          <div class="quick-link-content">
+                            <p>
+                              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                              invidunt
+                              ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                              justo duo
+                              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+                              dolor
+                              sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                              invidunt
+                            </p>
+
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolore laboriosam magni quia dolores. Facere veniam quos excepturi fugit, maiores illo quidem dolorem.
+                            </p>
+
+                            <div class="button-center">
+
+                              <button class="btn button mt-3">Read More</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+
+                      <div class="row">
+                        <div class="col-lg-5 col-md-5">
+                          <div class="quick-link-img scroll-animation-left">
+                            <img src="./assets/image/event.png" alt="event" title="event" class="mx-auto d-block w-100">
+                          </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7">
+
+                          <div class="quick-link-content">
+                            <p>
+                              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                              invidunt
+                              ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                              justo duo
+                              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+                              dolor
+                              sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                              invidunt
+                            </p>
+
+                           
+
+                            <div class="quick-link-doc d-flex">
+
+                              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam</p>
+                            </div>
+                            <div class="button-center">
+
+                              <button class="btn button mt-3">Read More</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+              </div>
+              <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
+                <div class="row">
+                  <div class="col-lg-5 col-md-5">
+                    <div class="quick-link-img scroll-animation-left">
+                      <img src="./assets/image/event.png" alt="event" title="event" class="mx-auto d-block w-100">
+                    </div>
+                  </div>
+                  <div class="col-lg-7 col-md-7">
+                    <div class="quick-link-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                        sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                      </p>
+
+                      <div class="quick-link-doc d-flex">
+
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                          invidunt ut labore et dolore magna aliquyam</p>
+                      </div>
+                      <div class="button-center">
+
+                        <button class="btn button mt-3">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+                <div class="row">
+                  <div class="col-lg-5 col-md-5">
+                    <div class="quick-link-img scroll-animation-left">
+                      <img src="./assets/image/event.png" alt="event" title="event" class="mx-auto d-block w-100">
+                    </div>
+                  </div>
+                  <div class="col-lg-7 col-md-7">
+                    <div class="quick-link-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                        sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                      </p>
+
+                      <div class="quick-link-doc d-flex">
+
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                          invidunt ut labore et dolore magna aliquyam</p>
+                      </div>
+                      <div class="button-center">
+
+                        <button class="btn button mt-3">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+    
+      <!-- event setion end -->
+
+
+
+      <!-- tab setion start -->
+      <section class="tab-container photo-gallery" >
+        <div class="tab-container-wrapper">
+
+          <div class="container">
+
+
+            <div class="row d-flex align-items-center ">
+              <div class="col-lg-3 col-md-3 tab-container-order1 mt-md-3">
+                <div class="tab">
+                  <button class="tablinks" onclick="openTab(event, 'firstTab')">Gallery Map 20 </button>
+                  <!-- <button class="tablinks" onclick="openTab(event, 'secondTab')">Price List </button> -->
+                  <button class="tablinks" onclick="openTab(event, 'thirdTab')"> Information </button>
+                  <button class="tablinks" onclick="openTab(event, 'fourthTab')"> Gallery Form </button>
+                  <button class="tablinks" onclick="openTab(event, 'fifthTab')" id="defaultOpen">  Photo Gallery
+                  </button> 
+                  <button class="tablinks" onclick="openTab(event, 'seventhTab')"> Video Gallery</button>
+                  <button class="tablinks" onclick="openTab(event, 'sixthTab')"> Rules </button>
+                 
+
+
+                </div>
+              </div>
+
+              <div class="col-lg-9 col-md-9 tab-container-order2" >
+
+                <div id="firstTab" class="tabcontent">
+                  <h3>First tab title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim maximus enim, nec dictum
+                    diam pellentesque nec. Nulla facilisis, massa ut egestas bibendum, ex libero varius nisl, a aliquet
+                    dui ante sed purus. Donec vitae ullamcorper lacus, ut vehicula metus. Duis molestie ipsum quis nisl
+                    ultrices feugiat. Nam at purus ut ligula ultrices aliquet vitae nec eros. Aenean condimentum tellus
+                    eu urna tincidunt volutpat. Nunc bibendum quam ut congue dignissim. Aliquam congue velit at tortor
+                    consequat cursus ut ut diam. Fusce iaculis auctor purus.</p>
+                </div>
+
+                <div id="secondTab" class="tabcontent">
+                  <h3>Second tab title</h3>
+                  <p>Cras euismod, urna id blandit maximus, sapien lorem tristique ex, eget maximus nibh tellus in arcu.
+                    Suspendisse libero metus, eleifend elementum velit varius, dapibus rutrum ex. Ut tincidunt, felis
+                    auctor ornare fermentum, sem quam imperdiet turpis, quis porttitor purus lacus quis quam. Donec erat
+                    massa, sodales sit amet mollis pretium, tempor ac ex. Maecenas fermentum tristique venenatis.
+                    Vivamus sollicitudin consequat ligula eu facilisis. </p>
+                </div>
+
+                <div id="thirdTab" class="tabcontent">
+                  <h3>Third tab title</h3>
+                  <p>Suspendisse lacinia sapien eget risus porttitor, sit amet faucibus velit ullamcorper. Quisque
+                    dictum erat neque, placerat dignissim ante tempor at. Nullam ullamcorper justo felis, nec pulvinar
+                    ex suscipit vel. Donec viverra leo ut ante iaculis, sit amet porta leo vehicula. Suspendisse
+                    fermentum congue ligula sed molestie. Praesent lacinia, massa non fringilla scelerisque, tellus arcu
+                    sodales nunc, in ultrices sapien ante et ante. In iaculis tellus urna, at convallis massa porta in.
+                    Proin vehicula facilisis varius. Pellentesque vitae purus non mauris ultricies porttitor nec sodales
+                    nulla.</p>
+                </div>
+                <div id="fourthTab" class="tabcontent">
+                  <h3>fourthTab tab title</h3>
+                  <p>Suspendisse lacinia sapien eget risus porttitor, sit amet faucibus velit ullamcorper. Quisque
+                    dictum erat neque, placerat dignissim ante tempor at. Nullam ullamcorper justo felis, nec pulvinar
+                    ex suscipit vel. Donec viverra leo ut ante iaculis, sit amet porta leo vehicula. Suspendisse
+                    fermentum congue ligula sed molestie. Praesent lacinia, massa non fringilla scelerisque, tellus arcu
+                    sodales nunc, in ultrices sapien ante et ante. In iaculis tellus urna, at convallis massa porta in.
+                    Proin vehicula facilisis varius. Pellentesque vitae purus non mauris ultricies porttitor nec sodales
+                    nulla.</p>
+                </div>
+
+                <div id="fifthTab" class="tabcontent">
+                  <h3 class="title mb-4 text-white" data-aos="fade-up"> Photo Gallery</h3>
+                  <div class="row border border-1 border-light rounded bg-white pb-3 shadow  mb-5 bg-body rounded">
+                    <div class="col-lg-12 col-md-12">
+                      <!-- <p>
+                        Lalit Kala Akademi is an institution that has rendered service to the arts in the nation long
+                        before the world woke up to the global impact of Indian art. Through the leadership of its
+                        members and staff, the Lalit Kala Akademi manifests a commitment to the service of the visual
+                        arts by establishing, preserving and documenting visual art of the highest order that in turn
+                        reflects the vitality, complexity and unfolding patterns of ancient, modern and contemporary art
+                        in India.
+                      </p> -->
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                      <div class="gallery-photo" data-aos="fade-up-right">
+                        <img src="./assets/image/gallery-photo1.png" alt="gallery-photo" title="gallery-photo">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4" data-aos="zoom-in">
+                      <div class="gallery-photo">
+                        <img src="./assets/image/gallery-photo2.png" alt="gallery-photo" title="gallery-photo">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4" data-aos="fade-up-left">
+                      <div class="gallery-photo">
+                        <img src="./assets/image/gallery-photo3.png" alt="gallery-photo" title="gallery-photo">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4" data-aos="fade-up-right">
+                      <div class="gallery-photo">
+                        <img src="./assets/image/gallery-photo4.png" alt="gallery-photo" title="gallery-photo">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4">
+                      <div class="gallery-photo" data-aos="zoom-in">
+                        <img src="./assets/image/gallery-photo5.png" alt="gallery-photo" title="gallery-photo">
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4" data-aos="fade-up-left">
+                      <div class="gallery-photo">
+                        <img src="./assets/image/gallery-photo2.png" alt="gallery-photo" title="gallery-photo">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div id="sixthTab" class="tabcontent">
+                  <h3>sixthTab tab title</h3>
+                  <p>Suspendisse lacinia sapien eget risus porttitor, sit amet faucibus velit ullamcorper. Quisque
+                    dictum erat neque, placerat dignissim ante tempor at. Nullam ullamcorper justo felis, nec pulvinar
+                    ex suscipit vel. Donec viverra leo ut ante iaculis, sit amet porta leo vehicula. Suspendisse
+                    fermentum congue ligula sed molestie. Praesent lacinia, massa non fringilla scelerisque, tellus arcu
+                    sodales nunc, in ultrices sapien ante et ante. In iaculis tellus urna, at convallis massa porta in.
+                    Proin vehicula facilisis varius. Pellentesque vitae purus non mauris ultricies porttitor nec sodales
+                    nulla.</p>
+                </div>
+
+                <div id="seventhTab" class="tabcontent">
+                  <h3>seventhTab tab title</h3>
+                  <p>Suspendisse lacinia sapien eget risus porttitor, sit amet faucibus velit ullamcorper. Quisque
+                    dictum erat neque, placerat dignissim ante tempor at. Nullam ullamcorper justo felis, nec pulvinar
+                    ex suscipit vel. Donec viverra leo ut ante iaculis, sit amet porta leo vehicula. Suspendisse
+                    fermentum congue ligula sed molestie. Praesent lacinia, massa non fringilla scelerisque, tellus arcu
+                    sodales nunc, in ultrices sapien ante et ante. In iaculis tellus urna, at convallis massa porta in.
+                    Proin vehicula facilisis varius. Pellentesque vitae purus non mauris ultricies porttitor nec sodales
+                    nulla.</p>
+                </div>
+              </div>
+             
+            </div>
+
+
+
+          </div>
+        </div>
+      </section>
+      <!-- tab setion end -->
+
+
+
+      <!-- news-center setion start -->
+
+
+      <section class="news py-lg-5 py-md-3 py-2">
+        <div class="news-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-4">
+                <h3>Activities</h3>
+                <div class="news-box" data-aos="fade-right">
+                  <div class="news-box-wrapper">
+                    <div class="news-item">
+                      <div class="news-item-container">
+                        <img src="./assets/image/gallery-photo1.png" alt="activitie">
+                        <div class="news-item-content">
+                          <a href="javasript:void(0)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloremque</a>
+                          <p><i class="fa fa-calendar" aria-hidden="true"></i> 02 nov, 2023</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="news-item">
+                      <div class="news-item-container">
+                        <img src="./assets/image/gallery-photo1.png" alt="activitie">
+                        <div class="news-item-content">
+                          <a href="javasript:void(0)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloremque</a>
+                          <p><i class="fa fa-calendar" aria-hidden="true"></i> 02 nov, 2023</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="news-item">
+                      <div class="news-item-container">
+                        <img src="./assets/image/gallery-photo1.png" alt="activitie">
+                        <div class="news-item-content">
+                          <a href="javasript:void(0)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloremque</a>
+                          <p><i class="fa fa-calendar" aria-hidden="true"></i> 02 nov, 2023</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="news-item">
+                      <div class="news-item-container">
+                        <img src="./assets/image/gallery-photo1.png" alt="activitie">
+                        <div class="news-item-content">
+                          <a href="javasript:void(0)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloremque</a>
+                          <p><i class="fa fa-calendar" aria-hidden="true"></i> 02 nov, 2023</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <a href="javascript:void(0)" title="view all" class="view-all"> View All</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <h3>Important Links</h3>
+                <div class="news-box" data-aos="fade-down">
+                  <div class="news-box-wrapper news-news">
+                    <div class="news-item">
+                      <div class="news-item-container">
+                        
+                        <div class="news-item-content">
+                          <a href="javasript:void(0)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloremque</a>
+                          <p><i class="fa fa-calendar" aria-hidden="true"></i> 02 nov, 2023</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="news-item">
+                      <div class="news-item-container">
+                        
+                        <div class="news-item-content">
+                          <a href="javasript:void(0)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloremque</a>
+                          <p><i class="fa fa-calendar" aria-hidden="true"></i> 02 nov, 2023</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="news-item">
+                      <div class="news-item-container">
+                        
+                        <div class="news-item-content">
+                          <a href="javasript:void(0)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloremque</a>
+                          <p><i class="fa fa-calendar" aria-hidden="true"></i> 02 nov, 2023</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="news-item">
+                      <div class="news-item-container">
+                        
+                        <div class="news-item-content">
+                          <a href="javasript:void(0)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloremque</a>
+                          <p><i class="fa fa-calendar" aria-hidden="true"></i> 02 nov, 2023</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <a href="javascript:void(0)" title="view all" class="view-all"> View All</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4">
+                <h3>Quick Link</h3>
+                <div class="news-box quick-link" data-aos="fade-left">
+                  <div class="news-box-wrapper quick-link">
+                    <ul>
+                      <li> <a href="jovasript:void(0)"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, doloremque!</a></li>
+                      <li> <a href="jovasript:void(0)"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, doloremque!</a></li>
+                      <li> <a href="jovasript:void(0)"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, doloremque!</a></li>
+                      <li> <a href="jovasript:void(0)"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, doloremque!</a></li>
+                      <li> <a href="jovasript:void(0)"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, doloremque!</a></li>
+                      <li> <a href="jovasript:void(0)"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, doloremque!</a></li>
+                      <li> <a href="jovasript:void(0)"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, doloremque!</a></li>
+                     
+                    </ul>
+                    <a href="javascript:void(0)" title="view all" class="view-all"> View All</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- news-center setion end -->
+
+
+      <!-- logo slider section start  -->
+      <section class="logo-slider py-lg-4 py-md-3 py-2">
+        <div class="container">
+          <div class="carousel-2">
+          
+            <div class="owl-carousel " id="logo-slider">
+              <div class="item"> <img src="./assets/image/logo/client-1.png" alt=""></div>
+              <div class="item"> <img src="./assets/image/logo/client-2.png" alt=""></div>
+              <div class="item"> <img src="./assets/image/logo/client-3.png" alt=""></div>
+              <div class="item"> <img src="./assets/image/logo/client-4.png" alt=""></div>
+              <div class="item"> <img src="./assets/image/logo/client-5.png" alt=""></div>
+              
+            
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- logo slider section end -->
+
+
+
+
+      <!-- footer section start -->
+
+      <section class="footer">
+        <div class="footer-overlay"></div>
+        <div class="container position-relative pt-4">
+          <div class="row">
+            <div class="col-lg-3 col-md-3">
+              <div class="footer-map" data-aos="fade-up" data-aos-duration="3000">
+                <!-- <h4 class="footer-title">contact</h4> -->
+                <div class="map text-start">
+                  <a href="#" title="map">
+                    <img src="./assets/image/logo/logo.png" alt="logo">
+                  </a>
+                </div>
+
+                <h3 class="text-white"> Company Name</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, </p>
+                <div class="footer-bottom-text">
+                  <ul class="d-flex sociol-icon justify-content-start">
+                    <li class="ps-0"><a href="#" title="linkedin" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                    <li><a href="#" title="twitter" aria-label="twitter"> <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#" title="pintrest " aria-label="pinterest"> <i class="fa fa-pinterest" aria-hidden="true"></i> </a></li>
+                    <li><a href="#" title="google plus" aria-label="google"><i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+
+
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="row ">
+                <div class="col-lg-6 col-md-6 info">
+                  <div class="compny-info" data-aos="fade-down" data-aos-duration="3000">
+                    <h4 class="footer-title">Menu</h4>
+                    <ul>
+                      <li><a href="#" title="about">About</a></li>
+                      <li><a href="#" title="events">Events</a></li>
+                      <li><a href="#" title="gallery">Gallery</a></li>
+                      <li><a href="#" title="#">Exhibitions</a></li>
+                      <li><a href="#" title="#">Publications</a></li>
+                      <li> <a href="#" title="#">Library & Archive</a></li>
+                      <li><a href="#" title="#">Research</a></li>
+                      <li> <a href="#" title="#">Regional Centres</a></li>
+                      <li><a href="#" title="#">Admin</a></li>
+                    </ul>
+
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 info">
+                  <div class="compny-info" data-aos="fade-up" data-aos-duration="3000">
+                    <h4 class="footer-title">Academic</h4>
+                    <ul>
+                      <li> <a href="#" title="Research"> Research </a></li>
+                      <li> <a href="#" title=" Tender Notices"> Tender Notices </a></li>
+                      <li> <a href="#" title="Download Forms"> Download Forms </a></li>
+                      <li> <a href="#" title=" Statistics"> Statistics </a></li>
+                      <li> <a href="#" title=" News Archive"> News Archive </a></li>
+                      <li> <a href="#" title="Documents"> Documents </a></li>
+                      <li> <a href="#" title="Gallery"> Gallery </a></li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-lg-2 col-md-2">
+              <div class="compny-info" data-aos="fade-down" data-aos-duration="3000">
+                <h4 class="footer-title">Quick Link</h4>
+                <ul>
+                  <li> <a href="#" title="Research"> Research </a></li>
+                  <li> <a href="#" title=" Tender Notices"> Tender Notices </a></li>
+                  <li> <a href="#" title="Download Forms"> Download Forms </a></li>
+                  <li> <a href="#" title=" Statistics"> Statistics </a></li>
+                  <li> <a href="#" title=" News Archive"> News Archive </a></li>
+                  <li> <a href="#" title="Documents"> Documents </a></li>
+                  <li> <a href="#" title="Gallery"> Gallery </a></li>
+                </ul>
+
+              </div>
+
+              </div>
+            
+            <div class="col-lg-3 col-md-3">
+              <div class="footer-contact" data-aos="fade-up" data-aos-duration="3000">
+                <h4 class="footer-title">contact</h4>
+                <ul>
+                  <li><i class="fa fa-map-marker" aria-hidden="true"></i>NIC Rabindra Bhavan, 35, Ferozeshah Road, New Delhi-110001</li>
+                  
+                  <li> <i class="fa fa-mobile" aria-hidden="true"></i>+91 011 2300 9292 (Fax) </li>
+                  <li> <i class="fa fa-mobile" aria-hidden="true"></i> +91 011 2300 9200 </li>
+                 
+                  <li><i class="fa fa-envelope" aria-hidden="true"></i> Ika@lalitkala[dot]gov.in lalitkala1954@yahoo.in </li>
+                 
+                </ul>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="footer-bottom position-relative">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-4">
+                <div class="footer-bottom-text h-100 d-flex align-items-center">
+                  <p>© Copyright 2023 company name.
+                  </p>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-4">
+                <div class="footer-bottom-counter">
+                  <div>
+
+                    <p>Visitor Counter: 124560</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4">
+                <div class="footer-bottom-text">
+                  <p class="text-end">Last updated: <span>06-11-2023</span></p>
+
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+  <!-- swiper js slider -->
+  <script src="./assets/js/aos.js"></script>
+<script src="./assets/owl-crousel/dist/owl.carousel.min.js"></script>
+ 
+  <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
